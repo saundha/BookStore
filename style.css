@@ -1,0 +1,89 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug. 4, 2019, 5:32:16 p.m.
+    Author     : Harpreet Saund
+*/
+@import url('https://fonts.googleapis.com/css?family=Cabin|Josefin+Sans|Quicksand:500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Muli:400,700&display=swap');
+body
+{
+    width: 1080px;
+    margin: auto;
+    background: #ededed;
+}
+.header h1{
+    font-family: "Quicksand";
+    font-size: 37px;
+
+}
+th a{
+    text-decoration: none;
+    color: darkcyan;
+    padding: 10px
+}
+th a:hover{
+    background: white;
+}
+th a:active{
+    color:orangered;
+}
+th{
+    font-family: "Josefin Sans";
+    padding: 12px 40px 0px 0px;
+    font-size: 21px;
+}
+.main{
+    margin: 50px;
+}
+.main h2{
+    font-family: "Josefin Sans";
+}
+.main p{
+    font-family: "Cabin";
+    font-size: 20px;
+}
+
+.wrapper{
+    
+    margin: auto;
+    width: 800px;
+    align-content: center
+  
+}
+.wrapper main h2{
+     font-size: 26px;
+     font-family: "Cabin";
+}
+.rigTable table tr td {
+     border: 1px solid #ddd;
+     text-align: left;
+     font-size: 20px;
+}
+.rigTable  table {
+     border-collapse: collapse;
+     margin: auto;
+}
+.rigTable  table tr td,input {
+    padding: 15px;
+    font-size: 20px;
+    font-family: "Muli";
+    font-weight: bolder;
+}
+.logg{
+    margin-top: 40px;
+    text-align: left;
+    font-size: 25px;
+    font-family: "Cabin";
+    
+}
+.logout{
+    float: right;
+}
+.clear{
+    clear: both;
+}
+
